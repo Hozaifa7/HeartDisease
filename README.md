@@ -39,35 +39,36 @@ The dataset used in this project contains medical and lifestyle information abou
 ---
 
 ## 🔑 Key Results
-- **Best Model**: [Model Name, e.g., Random Forest or Logistic Regression]
-- **Accuracy**: [XX%]
+- **Best Model**: Logistic Regression
+- **Accuracy**: 84.80% 
 - **Other Metrics**:
-  - Precision: [XX%]
-  - Recall: [XX%]
-  - F1-Score: [XX%]
+  - Precision: 82.16%
+  - Recall: 92.73%
+  - F1-Score: 92.73%
 
 ---
 
 ## 📎 How to Run
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Hozaifa7/HeartDisease/tree/main
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd <repository-name>
+   cd HeartDisease
    ```
 3. Install the required libraries:
+   All required libraries are listed in the requirements.txt file. You can install them by running:
    ```bash
    pip install -r requirements.txt
    ```
-4. Download the dataset from Kaggle using the link above and place it in the project directory.
-5. Open the notebook:
+5. Download the dataset from Kaggle using the link above and place it in the project directory.
+6. Open the notebook:
    ```bash
    jupyter notebook end-to-end-heart-disease-classification.ipynb
    ```
-6.Run all cells to execute the pipeline.
+6. Run all cells to execute the pipeline.
 
 
 
